@@ -14,7 +14,8 @@ module.exports = {
     hot: true,
     contentBase: 'public',
     port: 3000,
-    inline: true
+    inline: true,
+    historyApiFallback: true
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
