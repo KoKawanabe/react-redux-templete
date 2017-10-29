@@ -17,8 +17,8 @@ ReactDOM.render(
   <Provider store={store}>
     <Router history={customHistory}>
         <Switch>
-        <Route exact path="/" component={Top}/>
-        <Route path="/settings" component={Settings} />
+          <Route exact path="/" component={Top}/>
+          <Route path="/settings" component={Settings} />
         </Switch>
     </Router>
   </Provider>,

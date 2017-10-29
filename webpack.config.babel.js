@@ -15,7 +15,8 @@ module.exports = {
     contentBase: 'public',
     port: 3000,
     inline: true,
-    historyApiFallback: true
+    historyApiFallback: true,
+    host: "0.0.0.0"
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
